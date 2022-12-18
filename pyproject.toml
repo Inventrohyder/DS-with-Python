@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ds-with-python"
+version = "0.1.0"
+description = "A follow along of the Programming for Data Science with Python course on Udacity."
+authors = ["Inventrohyder"]
+readme = "README.md"
+packages = [{include = "ds_with_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^6.5.2"
+python-dotenv = "^0.21.0"
+ipython-sql = "^0.4.1"
+psycopg2-binary = "^2.9.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
